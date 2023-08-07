@@ -8,7 +8,8 @@ from sqlalchemy import pool
 from sqlalchemy.ext.asyncio import AsyncEngine
 
 from alembic import context
-
+# from user_auth.models.user import User
+# from user_auth.core.db import Base 
 from user_auth.core.base import Base
 
 load_dotenv('.env')
